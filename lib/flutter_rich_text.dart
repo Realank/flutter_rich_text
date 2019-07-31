@@ -44,7 +44,8 @@ TextSpan richTextForStyledTexts(List<RichStyleText> texts) {
   );
 }
 
-TextSpan richTextForStyledRange(String text, TextStyle globalStyle, List<RichStyleRange> ranges) {
+TextSpan richTextForStyledRange(
+    String text, TextStyle globalStyle, List<RichStyleRange> ranges) {
   if (text == null || text.length == 0) {
     return TextSpan(text: '');
   }

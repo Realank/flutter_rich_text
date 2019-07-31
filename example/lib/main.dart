@@ -38,12 +38,24 @@ class MyHomePage extends StatelessWidget {
                         color: Colors.red,
                         fontSize: 20,
                       )),
-                  RichStyleText('bbb',
-                      TextStyle(color: Colors.grey, fontSize: 20, fontWeight: FontWeight.w900)),
-                  RichStyleText('ccc',
-                      TextStyle(color: Colors.blue, fontSize: 10, fontWeight: FontWeight.w500)),
-                  RichStyleText('ddd',
-                      TextStyle(color: Colors.grey, fontSize: 50, fontWeight: FontWeight.w900))
+                  RichStyleText(
+                      'bbb',
+                      TextStyle(
+                          color: Colors.grey,
+                          fontSize: 20,
+                          fontWeight: FontWeight.w900)),
+                  RichStyleText(
+                      'ccc',
+                      TextStyle(
+                          color: Colors.blue,
+                          fontSize: 10,
+                          fontWeight: FontWeight.w500)),
+                  RichStyleText(
+                      'ddd',
+                      TextStyle(
+                          color: Colors.grey,
+                          fontSize: 50,
+                          fontWeight: FontWeight.w900))
                 ])),
             RichText(
                 overflow: TextOverflow.ellipsis,
@@ -60,12 +72,27 @@ class MyHomePage extends StatelessWidget {
                             color: Colors.red,
                             fontSize: 20,
                           )),
-                      RichStyleRange.length(3, 3,
-                          TextStyle(color: Colors.grey, fontSize: 20, fontWeight: FontWeight.w900)),
-                      RichStyleRange.length(6, 3,
-                          TextStyle(color: Colors.blue, fontSize: 10, fontWeight: FontWeight.w500)),
-                      RichStyleRange.length(9, 3,
-                          TextStyle(color: Colors.grey, fontSize: 50, fontWeight: FontWeight.w900))
+                      RichStyleRange.length(
+                          3,
+                          3,
+                          TextStyle(
+                              color: Colors.grey,
+                              fontSize: 20,
+                              fontWeight: FontWeight.w900)),
+                      RichStyleRange.length(
+                          6,
+                          3,
+                          TextStyle(
+                              color: Colors.blue,
+                              fontSize: 10,
+                              fontWeight: FontWeight.w500)),
+                      RichStyleRange.length(
+                          9,
+                          3,
+                          TextStyle(
+                              color: Colors.grey,
+                              fontSize: 50,
+                              fontWeight: FontWeight.w900))
                     ])),
           ],
         ),
