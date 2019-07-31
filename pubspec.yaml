@@ -1,8 +1,8 @@
 name: flutter_rich_text
-description: A package for rich text.
-version: 0.0.1
-author: realank@126.com
-homepage: github.com/realank
+description: This package is used for generate rich text (TextSpans). you can generate rich text in 2 ways, 1) give a list of texts besides styles. 2 )give a complete text, global style, and a list of styles specific for some ranges.
+version: 0.1.0
+author: realank <realank@126.com>
+homepage: https://github.com/Realank/
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

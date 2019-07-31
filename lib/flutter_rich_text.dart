@@ -51,7 +51,6 @@ TextSpan richTextForStyledRange(String text, TextStyle globalStyle, List<RichSty
   if (ranges == null || ranges.length == 0) {
     return TextSpan(text: text, style: globalStyle);
   }
-  RichStyleText richText = RichStyleText(text, globalStyle);
   List<num> styleIndexForChars = List.filled(text.length + 1, -1);
   styleIndexForChars[text.length] = -10; //add bounds
 //  print(styleIndexForChars);
